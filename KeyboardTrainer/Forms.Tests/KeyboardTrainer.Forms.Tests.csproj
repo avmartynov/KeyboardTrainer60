@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <AssemblyName>Twidlle.KeyboardTrainer.Forms.Tests</AssemblyName>
+    <RootNamespace>Twidlle.KeyboardTrainer.Forms.Tests</RootNamespace>
+
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library\Testing\Library.Testing.csproj" />
+    <ProjectReference Include="..\..\Library\WinForms\Library.WinForms.csproj" />
+    <ProjectReference Include="..\Core.Services\KeyboardTrainer.Core.Services.csproj" />
+    <ProjectReference Include="..\Forms.Presenters\KeyboardTrainer.Forms.Presenters.csproj" />
+  </ItemGroup>
+
+</Project>

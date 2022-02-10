@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EngLet.Name" xml:space="preserve">
+    <value>Буквы английского языка</value>
+  </data>
+  <data name="EngLet.Description" xml:space="preserve">
+    <value>Тренировка по набору английского текста. Включает только строчные буквы английского языка.</value>
+  </data>
+  <data name="LocLet.Name" xml:space="preserve">
+    <value>Буквы местного языка</value>
+  </data>
+  <data name="LocLet.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на местном языке. Включает только строчные буквы местного языка.</value>
+  </data>
+  <data name="EngLetCap.Name" xml:space="preserve">
+    <value>Буквы английского языка, включая заглавные</value>
+  </data>
+  <data name="EngLetCap.Description" xml:space="preserve">
+    <value>Тренировка по набору английского текста. Включает только английские буквы. Каждое пятое слово с большой буквы. </value>
+  </data>
+  <data name="LocLetCap.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные</value>
+  </data>
+  <data name="LocLetCap.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на местном языке. Включает только буквы местного языка. Каждое пятое слово с большой буквы. </value>
+  </data>
+
+  <data name="EngLetCapPun.Name" xml:space="preserve">
+    <value>Буквы английского языка, включая заглавные и пунктуация</value>
+  </data>
+  <data name="EngLetCapPun.Description" xml:space="preserve">
+        <value>Тренировка по набору текста на английском языке, включая заглавные буквы и пунктуацию. </value>
+  </data>
+  <data name="LocLetCapPun.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные и пунктуация</value>
+  </data>
+  <data name="LocLetCapPun.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на местном языке, включая заглавные буквы и пунктуацию. </value>
+  </data>
+
+  <data name="LocLetCapPunSymb.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные, цифры, пунктуацию и специальные символы</value>
+  </data>
+  <data name="LocLetCapPunSymb.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LocSymDigPun.Name" xml:space="preserve">
+    <value>Пунктуация местного языка, специальные символы и цифры</value>
+  </data>
+  <data name="LocSymDigPun.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LocLetSymDigPun.Name" xml:space="preserve">
+    <value>Буквы местного языка, цифры, пунктуация и специальные символы </value>
+  </data>
+  <data name="LocLetSymDigPun.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EngSymDigPun.Name" xml:space="preserve">
+    <value>Пунктуация английского языка, цифры и специальные символы</value>
+  </data>
+  <data name="EngSymDigPun.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EngLetSymDigPun.Name" xml:space="preserve">
+    <value>Буквы английского языка, цифры, пунктуация и специальные символы</value>
+  </data>
+  <data name="EngLetSymDigPun.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EngLetCaps.Name" xml:space="preserve">
+    <value>Буквы английского языка в режиме CapsLock</value>
+  </data>
+  <data name="EngLetCaps.Description" xml:space="preserve">
+    <value>Тренировка по набору английского текста в режиме CapsLock. Каждое третье слово в режиме CapsLock. </value>
+  </data>
+  <data name="Dig.Name" xml:space="preserve">
+    <value>Цифры</value>
+  </data>
+  <data name="Dig.Description" xml:space="preserve">
+    <value>Тренировка по набору цифр. Упражнение содержит только цифры. </value>
+  </data>
+  <data name="DigPnt.Name" xml:space="preserve">
+    <value>Числа с десятичной точной</value>
+  </data>
+  <data name="DigPnt.Description" xml:space="preserve">
+        <value>Тренировка по набору чисел с десятичной точкой. Две трети чисел содержит десятичную точку. </value>
+  </data>
+  <data name="EngSymDig.Name" xml:space="preserve">
+    <value>Специальные символы английского языка и цифры</value>
+  </data>
+  <data name="EngSymDig.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SymDig.Name" xml:space="preserve">
+    <value>Специальные символы и цифры</value>
+  </data>
+  <data name="SymDig.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Complex.Name" xml:space="preserve">
+    <value>Полный тест двух языков</value>
+  </data>
+  <data name="Complex.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fnc.Name" xml:space="preserve">
+    <value>Управляющие и функциональные клавиши</value>
+    <value>Управляющие и функциональные клавиши</value>
+  </data>
+  <data name="Fnc.Description" xml:space="preserve">
+    <value>Тренировка использования функциональных и управляющих клавиш. Функциональные клавиши: F1...F12, управляющие клавиши: Escape, Tab, CapsLock, Ctrl, Back, Enter, Menu, Insert, Delete, Home, End, PageDown, PageUp, Scroll, Pause, NumLock</value>
+  </data>
+  <data name="EngRnd.Name" xml:space="preserve">
+    <value>Произвольные английские символы</value>
+  </data>
+  <data name="EngRnd.Description" xml:space="preserve">
+     <value>Тренировка набора произвольного набора английских символов. </value>
+  </data>
+  <data name="LocRnd.Name" xml:space="preserve">
+    <value>Произвольные местные символы</value>
+  </data>
+  <data name="LocRnd.Description" xml:space="preserve">
+    <value>Тренировка набора произвольного набора символов местного языка. </value>
+  </data>
+  <data name="Rnd.Name" xml:space="preserve">
+    <value>Произвольные символы двух языков</value>
+  </data>
+  <data name="Rnd.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MixLet.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на двух языках, на английском и местном. Половина "слов" в упражнении на английском, половина - на русском.</value>
+  </data>
+  <data name="MixLet.Name" xml:space="preserve">
+    <value>Буквы английского и местного языка</value>
+  </data>
+  <data name="EngPun.Name" xml:space="preserve">
+    <value>Пунктуация английского языка</value>
+  </data>
+  <data name="EngPun.Description" xml:space="preserve">
+    <value>Тренировка по набору символов пунктуации в английском языке. Упражнение состоит только из английских символов пунктуации.</value>
+  </data>
+  <data name="LocPun.Name" xml:space="preserve">
+    <value>Пунктуация местного языка</value>
+  </data>
+  <data name="LocPun.Description" xml:space="preserve">
+    <value>Тренировка по набору символов пунктуации на местном языке. Упражнение состоит только из символов пунктуации местного языка.</value>
+  </data>
+
+
+  <data name="EngPunSym.Name" xml:space="preserve">
+    <value>Пунктуация и специальные символы английского языка</value>
+  </data>
+  <data name="EngPunSym.Description" xml:space="preserve">
+    <value>Тренировка по набору специальных символов и символов пунктуации в английском языке. Половина символов в упражнении - это пунктуация, а другая половина - специальные символы.</value>
+  </data>
+  <data name="LocPunSym.Name" xml:space="preserve">
+    <value>Пунктуация и специальные символы местного языка</value>
+  </data>
+  <data name="LocPunSym.Description" xml:space="preserve">
+    <value>Тренировка по набору специальных символов и символов пунктуации в местном языке. Половина символов в упражнении - это пунктуация, а другая половина - специальные символы.</value>
+  </data>
+
+
+
+  <data name="EngPunSymDig.Name" xml:space="preserve">
+    <value>Пунктуация, специальные символы английского языка и цифры</value>
+  </data>
+  <data name="EngPunSymDig.Description" xml:space="preserve">
+    <value>Тренировка по набору специальных символов и символов пунктуации в английском языке и цифр. Треть символов в упражнении - это пунктуация, треть - специальные символы и треть - цифры.</value>
+  </data>
+  <data name="LocPunSymDig.Name" xml:space="preserve">
+    <value>Пунктуация, специальные символы местного языка и цифры</value>
+  </data>
+  <data name="LocPunSymDig.Description" xml:space="preserve">
+    <value>Тренировка по набору специальных символов и символов пунктуации в местном языке и цифр. Треть символов в упражнении - это пунктуация, треть - специальные символы и треть - цифры.</value>
+  </data>
+
+  <data name="EngLetCapDig.Name" xml:space="preserve">
+    <value>Буквы английского языка, включая заглавные и цифры</value>
+  </data>
+  <data name="EngLetCapDig.Description" xml:space="preserve">
+    <value>Тренировка по текста на английском языке и цифр. Треть слов в упражнении с заглавной буквы, треть символов - числа.</value>
+  </data>
+  <data name="LocLetCapDig.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные и цифры</value>
+  </data>
+  <data name="LocLetCapDig.Description" xml:space="preserve">
+    <value>Тренировка по текста на местном  языке и цифр. Треть слов в упражнении с заглавной буквы, треть символов - числа.</value>
+  </data>
+
+  <data name="EngLetCapPunDig.Name" xml:space="preserve">
+    <value>Буквы английского языка, включая заглавные, пунктуацию и цифры</value>
+  </data>
+  <data name="EngLetCapPunDig.Description" xml:space="preserve">
+    <value>Тренировка по текста на английском языке и цифр. Четверть слов в упражнении с заглавной буквы, четверть символов - пунктуация, четверть символов - числа.</value>
+  </data>
+  <data name="LocLetCapPunDig.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные, пунктуацию и цифры</value>
+  </data>
+  <data name="LocLetCapPunDig.Description" xml:space="preserve">
+    <value>Тренировка по текста на местном  языке и цифр. Четверть слов в упражнении с заглавной буквы, четверть символов - пунктуация, четверть символов - числа.</value>
+  </data>
+
+  <data name="EngLetCapPunSym.Name" xml:space="preserve">
+    <value>Буквы английского языка, включая заглавные, пунктуацию и специальные символы</value>
+  </data>
+  <data name="EngLetCapPunSym.Description" xml:space="preserve">
+    <value>Тренировка по текста на английском языке и цифр. Четверть слов в упражнении с заглавной буквы, четверть символов - пунктуация, четверть символов - специальные.</value>
+  </data>
+  <data name="LocLetCapPunSym.Name" xml:space="preserve">
+    <value>Буквы местного языка, включая заглавные, пунктуацию и специальные символы</value>
+  </data>
+  <data name="LocLetCapPunSym.Description" xml:space="preserve">
+    <value>Тренировка по текста на местном  языке и цифр. Четверть слов в упражнении с заглавной буквы, четверть символов - пунктуация, четверть символов - специальные.</value>
+  </data>
+
+
+  <data name="EngLetPunSymDig.Name" xml:space="preserve">
+    <value>Буквы английского языка, пунктуация, специальные символы и цифры</value>
+  </data>
+  <data name="EngLetPunSymDig.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на английском языке со специальными символами, пунктуацией и цифрами. Четверть символов - пунктуация, четверть символов - специальные, четверть - цифры.</value>
+  </data>
+  <data name="LocLetPunSymDig.Name" xml:space="preserve">
+    <value>Буквы местного языка, пунктуация, специальные символы и цифры</value>
+  </data>
+  <data name="LocLetPunSymDig.Description" xml:space="preserve">
+    <value>Тренировка по набору текста на местном  языке со специальными символами, пунктуацией и цифрами. Четверть символов - пунктуация, четверть символов - специальные, четверть - цифры.</value>
+  </data>
+
+</root>

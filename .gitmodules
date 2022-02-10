@@ -1,0 +1,4 @@
+[submodule "Library"]
+	path = Library
+	url = D:/M/Dropbox/Public/Git/Twidlle/Library
+	branch = ftr-0001

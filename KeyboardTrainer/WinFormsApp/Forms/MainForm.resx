@@ -1,0 +1,660 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="newWorkoutMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="newWorkoutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="newWorkoutMenuItem.Text" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="openWorkoutMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="openWorkoutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="openWorkoutMenuItem.Text" xml:space="preserve">
+    <value>&amp;Continue...</value>
+  </data>
+  <data name="saveWorkoutMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveWorkoutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="saveWorkoutMenuItem.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="saveWorkoutAsMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Alt+O</value>
+  </data>
+  <data name="saveWorkoutAsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="saveWorkoutAsMenuItem.Text" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 6</value>
+  </data>
+  <data name="workoutPropsMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="workoutPropsMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+Space</value>
+  </data>
+  <data name="workoutPropsMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="workoutPropsMenuItem.Text" xml:space="preserve">
+    <value>&amp;Results...</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 6</value>
+  </data>
+  <data name="exitMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="exitMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 22</value>
+  </data>
+  <data name="exitMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Workout</value>
+  </data>
+  <data name="fileToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="nextExerciseMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Q</value>
+  </data>
+  <data name="nextExerciseMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="nextExerciseMenuItem.Text" xml:space="preserve">
+    <value>Next Exercise</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 6</value>
+  </data>
+  <data name="resetWorkoutMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 22</value>
+  </data>
+  <data name="resetWorkoutMenuItem.Text" xml:space="preserve">
+    <value>Reset Workout</value>
+  </data>
+  <data name="workoutToolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="workoutToolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="preferencesMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="preferencesMenuItem.Text" xml:space="preserve">
+    <value>Preferences...</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="toolsToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="homePageMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="homePageMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="homePageMenuItem.Text" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 6</value>
+  </data>
+  <data name="aboutProgramMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="aboutProgramMenuItem.Text" xml:space="preserve">
+    <value>About Twidlle Typing Lab...</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="helpToolStripMenuItem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 24</value>
+  </data>
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Last result:</value>
+  </data>
+  <data name="toolStripStatusLabel1.ToolTipText" xml:space="preserve">
+    <value>Result of last executed exercise</value>
+  </data>
+  <data name="lastResultToolStripStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lastResultToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="lastResultToolStripStatusLabel.Text" xml:space="preserve">
+    <value>999</value>
+  </data>
+  <data name="lastResultToolStripStatusLabel.ToolTipText" xml:space="preserve">
+    <value>Result of last executed exercise</value>
+  </data>
+  <data name="toolStripStatusLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 19</value>
+  </data>
+  <data name="toolStripStatusLabel8.Text" xml:space="preserve">
+    <value>char/ min</value>
+  </data>
+  <data name="toolStripStatusLabel8.ToolTipText" xml:space="preserve">
+    <value>Result of last executed exercise</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>     Best result:</value>
+  </data>
+  <data name="toolStripStatusLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="toolStripStatusLabel2.ToolTipText" xml:space="preserve">
+    <value>Result of the best executed exercise in workout</value>
+  </data>
+  <data name="bestResultToolStripStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bestResultToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 19</value>
+  </data>
+  <data name="bestResultToolStripStatusLabel.Text" xml:space="preserve">
+    <value>999</value>
+  </data>
+  <data name="bestResultToolStripStatusLabel.ToolTipText" xml:space="preserve">
+    <value>Result of the best executed exercise in workout</value>
+  </data>
+  <data name="toolStripStatusLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="toolStripStatusLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="toolStripStatusLabel4.Text" xml:space="preserve">
+    <value>char/ min</value>
+  </data>
+  <data name="toolStripStatusLabel4.ToolTipText" xml:space="preserve">
+    <value>Result of the best executed exercise in workout</value>
+  </data>
+  <data name="toolStripStatusLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 19</value>
+  </data>
+  <data name="toolStripStatusLabel6.Text" xml:space="preserve">
+    <value>Exercise #</value>
+  </data>
+  <data name="toolStripStatusLabel6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="toolStripStatusLabel6.ToolTipText" xml:space="preserve">
+    <value>Count of executed exercises in workout</value>
+  </data>
+  <data name="exerciseCountToolStripStatusLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="exerciseCountToolStripStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 19</value>
+  </data>
+  <data name="exerciseCountToolStripStatusLabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="exerciseCountToolStripStatusLabel.ToolTipText" xml:space="preserve">
+    <value>Count of executed exercises in workout</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 183</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 16, 0</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 24</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
+  <data name="_testPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="_testPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="_testPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 159</value>
+  </data>
+  <data name="_testPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_testPanel.Name" xml:space="preserve">
+    <value>_testPanel</value>
+  </data>
+  <data name="&gt;&gt;_testPanel.Type" xml:space="preserve">
+    <value>Twidlle.Library.WinForms.GraphicPanel, Twidlle.Library.WinForms, Culture=neutral, PublicKeyToken=1d9d659ea0ce8913</value>
+  </data>
+  <data name="&gt;&gt;_testPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_testPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 17</value>
+  </metadata>
+  <data name="saveFileDialog.Filter" xml:space="preserve">
+    <value>Workout files (*.ktr)|*.ktr|All files (*.*)|*.*</value>
+  </data>
+  <data name="saveFileDialog.Title" xml:space="preserve">
+    <value>Save workout file</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>618, 17</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Workout files (*.ktr)|*.ktr|All files (*.*)|*.*</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Open workout file</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>743, 207</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAACABoBQAAJgAAACAgAAAAAAgAqAgAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAAAB
+        AAAAAAAAAAAAAAABAAAAAQAAAAAAAEJCQgBYWFgAhIODAIaGhgCPjo4Ar66vALq5ugDQz88A29naAObk
+        5QDx7/AA9vb2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////AP///////wz///////////////////8MDP///////////wIBAQEB
+        AQEBAQEBAQEC//8BAgIBAgMCAgIDAQICAf//AQz/AwwM//8MDAP//wH//wECAwIDAQMCAwEDAgMB//8B
+        /wsD/wMMA/8DDAP/Af8LAQMBAgIDAQIBAwEHDAH//wH/BP8D/wT/AwwE/wwB//8CAQEBAQEBAQEBAQEB
+        Agz///8LB///C////wwM/////////wEI//8L////DAz///////8GAQEBAQb///8M//////////8L/wgB
+        C////////////////wv/Af8M////////////////C/////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAIAAAA
+        AAAABAAAAAAAAAAAAAAAAQAAAAEAAAAAAABCQkIAWFhYAGNiYwBubW4AeXh4AISDgwCGhoYAmpmZAKSj
+        pACvrq8Aurm6AMXExQDx7/AA9vb2APn5+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wAPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8P
+        Dw8PDw8PDw8PDg8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8ODg8PDw8PDw8PDw8PDw8PDw8P
+        Dw8PDw8PDw8PDw8PDw8ODw8PDw8PDw8PDw8PDw8PDw8PDw8PCwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+        AQEBCw8PDw8BAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBDw8PDwEBAQEBAQEBAQEBAQEBAQEBAQEB
+        AQEBAQEBAQEPDw8PAQEMDw8PDAEMDw8PDw8PDw8PDwwBDA8PDwwBAQ8PDw8BAQ8PDw8PAQ8ODg8ODg4P
+        Dw8PDgEPDw8PDwEBDw8PDwEBDA8PDgwBDA8PDg8PDg4PDw8MAQwPDw8MAQEPDw8PAQEBAQEBAQEBAQEB
+        AQEBAQEBAQEBAQEBAQEBAQ8PDw8BAQwPDwwBDA8MAQwPDAEMDwwBDA8MAQwPDAEBDg8PDwEBDg8PDwEO
+        Dg4BDg4PAQ8PDgEPDw8BDw8PAQEODw8PAQEMDg8MAQwPDAEMDwwBDA8MAQwODAEODw8BAQ8PDw8BAQEB
+        AQEBAQEBAQEBAQEBAQEBAQEBAQ8ODgEBDw8PDwEBDA8MAQwPDAEMDwwBDA4MAQwPDAEMDw8PAQEPDw8P
+        AQEPDw8BDg4OAQ4PDwEPDg8BDw8PAQ8PDw8BAQ8PDw8BAQwPDAEMDwwBDA4MAQwPDAEMDgwBDA8PDAEB
+        Dw8PDwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEPDw8PCwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+        AQEBCw8PDg8PDw8ODg4ODg4ODw8PDg4PDw8PDw8PDw8ODw8PDw8PDg8PDw8PDwEBDw4ODw8PDg4ODg4O
+        Dg8PDw8PDw8PDw8ODw8PDw8PAQENDw4PDw8PDw8PDw8ODg8PDw8PDw8PDw8ODg8PDg8EAQQNDg4PDw8P
+        Dw8PDw8PDg8PDw8PDw8PDw8PDg4PDgwBAQEBAQEBAQQNDw8PDw8PDw8PDw8PDw8PDw8PDw8PDwwEAQEB
+        AQEBAQEMDg8PDw8PDw8PDw8PDw8PDw8PDw8PDw4PDw8PDw0EAQQPDg8PDw8PDw8PDw8PDw8PDw8PDw8P
+        Dw4PDw8PDw0BAQ8ODw8PDw8PDw8PDw8PDw8PDw8PDw8PDg4PDw8ODwEBDw8PDw8PDw8PDw8PDw8PDw8P
+        Dw8PDw8PDw4ODg4OAgIPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8PDg8PDw8PDw8PDw8PDw8P
+        Dw8PDw8PDw8PDw8PDw8PDw8ODw8PDw8PDw8PDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>750, 232</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KeyboardTrainer</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newWorkoutMenuItem.Name" xml:space="preserve">
+    <value>newWorkoutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newWorkoutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openWorkoutMenuItem.Name" xml:space="preserve">
+    <value>openWorkoutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openWorkoutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveWorkoutMenuItem.Name" xml:space="preserve">
+    <value>saveWorkoutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveWorkoutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveWorkoutAsMenuItem.Name" xml:space="preserve">
+    <value>saveWorkoutAsMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveWorkoutAsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;workoutPropsMenuItem.Name" xml:space="preserve">
+    <value>workoutPropsMenuItem</value>
+  </data>
+  <data name="&gt;&gt;workoutPropsMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitMenuItem.Name" xml:space="preserve">
+    <value>exitMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;workoutToolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>workoutToolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;workoutToolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nextExerciseMenuItem.Name" xml:space="preserve">
+    <value>nextExerciseMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nextExerciseMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resetWorkoutMenuItem.Name" xml:space="preserve">
+    <value>resetWorkoutMenuItem</value>
+  </data>
+  <data name="&gt;&gt;resetWorkoutMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Name" xml:space="preserve">
+    <value>toolsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preferencesMenuItem.Name" xml:space="preserve">
+    <value>preferencesMenuItem</value>
+  </data>
+  <data name="&gt;&gt;preferencesMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;homePageMenuItem.Name" xml:space="preserve">
+    <value>homePageMenuItem</value>
+  </data>
+  <data name="&gt;&gt;homePageMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutProgramMenuItem.Name" xml:space="preserve">
+    <value>aboutProgramMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutProgramMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lastResultToolStripStatusLabel.Name" xml:space="preserve">
+    <value>lastResultToolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;lastResultToolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel8.Name" xml:space="preserve">
+    <value>toolStripStatusLabel8</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
+    <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bestResultToolStripStatusLabel.Name" xml:space="preserve">
+    <value>bestResultToolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;bestResultToolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Name" xml:space="preserve">
+    <value>toolStripStatusLabel4</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel6.Name" xml:space="preserve">
+    <value>toolStripStatusLabel6</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exerciseCountToolStripStatusLabel.Name" xml:space="preserve">
+    <value>exerciseCountToolStripStatusLabel</value>
+  </data>
+  <data name="&gt;&gt;exerciseCountToolStripStatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

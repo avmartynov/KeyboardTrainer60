@@ -1,0 +1,67 @@
+﻿{
+  "WorkoutLanguages": [
+    {
+      "Code": "en",
+      "Name": "English",
+      "Letters": "abcdefghijklmnopqrstuvwxyz",
+      "Punctuation": ".,;:?!`'\"-()",
+      "Symbols": "~@#$%^&amp;*_+=[]{}|\/&lt;&gt;"
+    },
+    {
+      "Code": "fr",
+      "Name": "Français",
+      "Letters": "éèçàazertyuiopqsdfghjklmùwxcvbnµâêûîôäëÿüïö",
+      "Punctuation": "\".,;:?!'\"-()",
+      "Symbols": "²&amp;_=^$*&lt;&gt;°+¨£%µ/§"
+    },
+    {
+      "Code": "es",
+      "Name": "Español",
+      "Letters": "qwertyuiopasdfghjklñçzxcvbnm",
+      "Punctuation": "',.-!\"·%();:?¿¡",
+      "Symbols": "+$&amp;/ºª^*¨&lt;&gt;_`´"
+    },
+    {
+      "Code": "de",
+      "Name": "Deutsch",
+      "Letters": "qwertzuiopüasdfghjklöäyxcvbnm",
+      "Punctuation": "´,.-!\"%()?`';:",
+      "Symbols": "^ß+#&lt;&gt;°§$&amp;=*_/"
+    },
+    {
+      "Code": "it",
+      "Name": "Italiano",
+      "Letters": "ìqwertyuiopèasdfghjklòàùzxcvbnméç",
+      "Punctuation": "',.-!\"%()?;:",
+      "Symbols": "+|£$=^°§_*\/&amp;&lt;&gt;"
+    },
+    {
+      "Code": "pt",
+      "Name": "Português",
+      "Letters": "qwertyuiopásdfghjklçzxcvbnm",
+      "Punctuation": "'«,.-!\"%()?»;:",
+      "Symbols": "=+~|$^ºª\/#_*&amp;&lt;&gt;"
+    },
+    {
+      "Code": "ru",
+      "Name": "Русский",
+      "Letters": "ёйцукенгшщзхъфывапролджэячсмитьбю",
+      "Punctuation": ".,?!-():\"",
+      "Symbols": "=№+\\*_/;%"
+    },
+    {
+      "Code": "uk",
+      "Name": "Український",
+      "Letters": "йцукенгшщзхїфівапролджєґячсмитьбю",
+      "Punctuation": "-.!\";:?(),%'",
+      "Symbols": "=№+\\*_/₴"
+    },
+    {
+      "Code": "be",
+      "Name": "Беларускі",
+      "Letters": "ёйцукенгшўзхфывапролджэячсмітьбю",
+      "Punctuation": "-.!\";:?(),%'",
+      "Symbols": "№+\\*_/"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "NLog": {
+      "autoReload": true,
+      "throwConfigExceptions": true,
+      "internalLogLevel": "warn",
+      "internalLogFile": "${basedir}\\log\\internalNLog.log",
+    "variables": {
+      "_date": "${date:format=yyyy-MM-dd HH\\:mm\\:ss.fff}",
+      "_time": "${date:format=HH\\:mm\\:ss.fff}",
+      "_thread": "${pad:fixedLength=true:padding=-5  :inner=${threadId}}",
+      "_level": "${pad:fixedLength=true:padding=-5  :inner=${level}}",
+      "_logger": "${pad:fixedLength=true:padding=-24 :inner=${logger:shortName=true}}",
+      "_layout": "${var:_level} | ${var:_logger} | ${message} ${exception:format=toString}",
+
+      "layoutFile": "${var:_date} | ${var:_thread} | ${var:_layout}",
+      "layoutDebugger": "${var:_time} | ${var:_layout}"
+    },
+      "targets": {
+        "debugger": {
+          "type": "Debugger",
+          "layout": "${var: layoutDebugger}"
+        },
+        "file": {
+          "type": "File",
+          "layout": "${var:layout}",
+          "fileName": "${basedir}\\log\\${processName}_${date:format=yyyy-MM-dd}.log",
+          "keepFileOpen": "True",
+          "deleteOldFileOnStartup": "False"
+        }
+      },
+      "rules": [
+        {
+          "writeTo": "debugger",
+          "logger": "*",
+          "minLevel": "Debug"
+        },
+        {
+          "writeTo": "file",
+          "logger": "*",
+          "minLevel": "Debug"
+        }
+      ]
+    }
+  }

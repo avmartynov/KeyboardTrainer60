@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Twidlle.KeyboardTrainer.WinFormsApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastWorkoutType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EnglishLetters</Value>
+    </Setting>
+    <Setting Name="LastLocalWorkoutLanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ru</Value>
+    </Setting>
+    <Setting Name="OpenLastFile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseVoice" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MainForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UILanguage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ru</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

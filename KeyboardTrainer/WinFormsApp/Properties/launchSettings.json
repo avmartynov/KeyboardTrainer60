@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "KeyboardTrainer.WinFormsApp": {
+      "commandName": "Project",
+      "hotReloadEnabled": false
+    },
+    "Dev": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "KeyboardTrainer_ENVIRONMENT": "Dev"
+      },
+      "hotReloadEnabled": false
+    }
+  }
+}

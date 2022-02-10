@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+    <data name="a"        xml:space="preserve"><value>эй</value></data>
+    <data name="b"        xml:space="preserve"><value>би</value></data>
+    <data name="c"        xml:space="preserve"><value>cи</value></data>
+    <data name="d"        xml:space="preserve"><value>ди</value></data>
+    <data name="e"        xml:space="preserve"><value>e</value></data>
+    <data name="f"        xml:space="preserve"><value>эф</value></data>
+    <data name="g"        xml:space="preserve"><value>джи</value></data>
+    <data name="h"        xml:space="preserve"><value>эйч</value></data>
+    <data name="i"        xml:space="preserve"><value>ай</value></data>
+    <data name="j"        xml:space="preserve"><value>джей</value></data>
+    <data name="k"        xml:space="preserve"><value>кей</value></data>
+    <data name="l"        xml:space="preserve"><value>эл</value></data>
+    <data name="m"        xml:space="preserve"><value>эм</value></data>
+    <data name="n"        xml:space="preserve"><value>эн</value></data>
+    <data name="o"        xml:space="preserve"><value>oу</value></data>
+    <data name="p"        xml:space="preserve"><value>пи</value></data>
+    <data name="q"        xml:space="preserve"><value>кью</value></data>
+    <data name="r"        xml:space="preserve"><value>ар</value></data>
+    <data name="s"        xml:space="preserve"><value>эс</value></data>
+    <data name="t"        xml:space="preserve"><value>ти</value></data>
+    <data name="u"        xml:space="preserve"><value>ю</value></data>
+    <data name="v"        xml:space="preserve"><value>ви</value></data>
+    <data name="w"        xml:space="preserve"><value>дабл-ю</value></data>
+    <data name="x"        xml:space="preserve"><value>экс</value></data>
+    <data name="y"        xml:space="preserve"><value>уай</value></data>
+    <data name="z"        xml:space="preserve"><value>зед</value></data>
+    <data name="в"        xml:space="preserve"><value>вэ</value></data>
+    <data name="с"        xml:space="preserve"><value>эс</value></data>
+    <data name="ж"        xml:space="preserve"><value>жэ</value></data>
+    <data name="к"        xml:space="preserve"><value>ка</value></data>
+    <data name=" "        xml:space="preserve"><value>Пробел</value></data>
+    <data name="."        xml:space="preserve"><value>точка</value></data>
+    <data name=","        xml:space="preserve"><value>запятая</value></data>
+    <data name=";"        xml:space="preserve"><value>точка с запятой</value></data>
+    <data name=":"        xml:space="preserve"><value>вдоеточие</value></data>
+    <data name="?"        xml:space="preserve"><value>вопросительный знак</value></data>
+    <data name="!"        xml:space="preserve"><value>восклицательный знак</value></data>
+    <data name="`"        xml:space="preserve"><value>апостроф</value></data>
+    <data name="'"        xml:space="preserve"><value>одинарная кавычка</value></data>
+    <data name="&quot;"   xml:space="preserve"><value>кавычки</value></data>
+    <data name="-"        xml:space="preserve"><value>тире</value></data>
+    <data name="("        xml:space="preserve"><value>открывающая круглая</value></data>
+    <data name=")"        xml:space="preserve"><value>закрывающая круглая</value></data>
+    <data name="~"        xml:space="preserve"><value>тильда</value></data>
+    <data name="@"        xml:space="preserve"><value>собака</value></data>
+    <data name="#"        xml:space="preserve"><value>решётка</value></data>
+    <data name="$"        xml:space="preserve"><value>доллар</value></data>
+    <data name="%"        xml:space="preserve"><value>процент</value></data>
+    <data name="^"        xml:space="preserve"><value>крышка</value></data>
+    <data name="&amp;"    xml:space="preserve"><value>амперсанд</value></data>
+    <data name="*"        xml:space="preserve"><value>звёздочка</value></data>
+    <data name="_"        xml:space="preserve"><value>подчёркивание</value></data>
+    <data name="+"        xml:space="preserve"><value>плюс</value></data>
+    <data name="="        xml:space="preserve"><value>равенство</value></data>
+    <data name="["        xml:space="preserve"><value>открывающая квадратная</value></data>
+    <data name="]"        xml:space="preserve"><value>закрывающая квадратная</value></data>
+    <data name="{"        xml:space="preserve"><value>открывающая фигурная</value></data>
+    <data name="}"        xml:space="preserve"><value>закрывающая фигурная</value></data>
+    <data name="|"        xml:space="preserve"><value>вертикальная черта</value></data>
+    <data name="\"        xml:space="preserve"><value>бэкслэш</value></data>
+    <data name="/"        xml:space="preserve"><value>слэш</value></data>
+    <data name="&lt;"     xml:space="preserve"><value>знак меньше</value></data>
+    <data name="&gt;"     xml:space="preserve"><value>знак больше</value></data>
+    <data name="№"        xml:space="preserve"><value>номер</value></data>
+    <data name="F1"       xml:space="preserve"><value>Ф 1</value></data>
+    <data name="F2"       xml:space="preserve"><value>Ф 2</value></data>
+    <data name="F3"       xml:space="preserve"><value>Ф 3</value></data>
+    <data name="F4"       xml:space="preserve"><value>Ф 4</value></data>
+    <data name="F5"       xml:space="preserve"><value>Ф 5</value></data>
+    <data name="F6"       xml:space="preserve"><value>Ф 6</value></data>
+    <data name="F7"       xml:space="preserve"><value>Ф 7</value></data>
+    <data name="F8"       xml:space="preserve"><value>Ф 8</value></data>
+    <data name="F9"       xml:space="preserve"><value>Ф 9</value></data>
+    <data name="F10"      xml:space="preserve"><value>Ф 10</value></data>
+    <data name="F11"      xml:space="preserve"><value>Ф 11</value></data>
+    <data name="F12"      xml:space="preserve"><value>Ф 12</value></data>
+    <data name="Tab"      xml:space="preserve"><value>Табуляция</value></data>
+    <data name="Enter"    xml:space="preserve"><value>Ввод</value></data>
+    <data name="Menu"     xml:space="preserve"><value>Меню</value></data>
+    <data name="Pause"    xml:space="preserve"><value>Пауза</value></data>
+</root>

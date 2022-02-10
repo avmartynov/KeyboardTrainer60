@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "KeyboardTrainer.Core.Tests": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "test $(ProjectPath)"
+    }
+  }
+}

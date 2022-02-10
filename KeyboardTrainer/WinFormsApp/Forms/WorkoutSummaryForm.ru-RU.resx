@@ -1,0 +1,322 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 162</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Местный язык:</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 134</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>План тренировки:</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 106</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 15</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Выполнено упражнений: </value>
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value>Число выполненных в этой тренировке упражнений </value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 78</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Результат последнего упражнения:</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 51</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Результат упражнения в среднем: </value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value>Результат, усреднённый по всем выполненным упражнениям</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Результат лучшего упражнения:</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value>Результат наилучшим образом выполненного упражнения</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>симв./мин, </value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>ошибок</value>
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 0</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>ошибок</value>
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value>Результат, усреднённый по всем выполненным упражнениям</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>симв./мин, </value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value>Результат наилучшим образом выполненного упражнения</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>ошибок</value>
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value>Результат наилучшим образом выполненного упражнения</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 8</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 192</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 78</value>
+  </data>
+  <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 23</value>
+  </data>
+  <data name="lastCharPerMinuteLabel.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="lastErrorsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="lastErrorsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lastErrorsLabel.Text" xml:space="preserve">
+    <value>99.99%</value>
+  </data>
+  <data name="lastErrorsLabel.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="flowLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 51</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 23</value>
+  </data>
+  <data name="averageCharPerMinuteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="averageCharPerMinuteLabel.Text" xml:space="preserve">
+    <value>999</value>
+  </data>
+  <data name="averageCharPerMinuteLabel.ToolTip" xml:space="preserve">
+    <value>Результат, усреднённый по всем выполненным упражнениям</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 15</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>симв./мин, </value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value>Результат последнего выполненного упражнения</value>
+  </data>
+  <data name="averageErrorsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="averageErrorsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="averageErrorsLabel.Text" xml:space="preserve">
+    <value>99.99%</value>
+  </data>
+  <data name="averageErrorsLabel.ToolTip" xml:space="preserve">
+    <value>Результат, усреднённый по всем выполненным упражнениям</value>
+  </data>
+  <data name="flowLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 23</value>
+  </data>
+  <data name="bestCharPerMinuteLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bestCharPerMinuteLabel.ToolTip" xml:space="preserve">
+    <value>Результат наилучшим образом выполненного упражнения</value>
+  </data>
+  <data name="bestErrorsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 0</value>
+  </data>
+  <data name="bestErrorsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="bestErrorsLabel.Text" xml:space="preserve">
+    <value>99.99%</value>
+  </data>
+  <data name="bestErrorsLabel.ToolTip" xml:space="preserve">
+    <value>Результат наилучшим образом выполненного упражнения</value>
+  </data>
+  <data name="workoutTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 134</value>
+  </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 162</value>
+  </data>
+  <data name="exerciseCountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 106</value>
+  </data>
+  <data name="exerciseCountLabel.ToolTip" xml:space="preserve">
+    <value>Число выполненных в этой тренировке упражнений </value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 14</value>
+  </data>
+  <data name="copyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 173</value>
+  </data>
+  <data name="copyButton.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 213</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>11663, 252</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>571, 252</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Результаты тренировки</value>
+  </data>
+</root>

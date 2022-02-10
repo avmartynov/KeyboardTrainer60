@@ -1,0 +1,198 @@
+﻿{
+  "WorkoutTypes": [
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLet",
+      "Name": "English letters",
+      "Description": "" 
+    },
+    {
+      "Code": "LocLet",
+      "Name": "Local letters",
+      "Description": "",
+      "LocalWordPercent": 100
+    },
+    {
+      "Code": "MixLet",
+      "Name": "English and local letters",
+      "Description": "",
+      "LocalWordPercent": 50
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCap",
+      "Name": "English letters with capitals",
+      "Description": "",
+      "CapitalizedWordPercent": 20
+    },
+    {
+      "Code": "LocLetCap",
+      "Name": "Local letters with capitals",
+      "Description": "",
+      "CapitalizedWordPercent": 20,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCaps",
+      "Name": "English letters with Caps Lock",
+      "Description": "",
+      "CapsLockWordPercent": 33
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngPun",
+      "Name": "English punctuation only",
+      "PunctuationPercent": 100
+    },
+    {
+      "Code": "LocPun",
+      "Name": "Local punctuation only",
+      "PunctuationPercent": 100,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngPunSym",
+      "Name": "English punctuation and special symbols",
+      "PunctuationPercent": 50,
+      "SpecialSymbolPercent": 50
+    },
+    {
+      "Code": "LocPunSym",
+      "Name": "Local punctuation and special symbols",
+      "PunctuationPercent": 50,
+      "SpecialSymbolPercent": 50,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngPunSymDig",
+      "Name": "English punctuation and special symbols",
+      "PunctuationPercent": 30,
+      "SpecialSymbolPercent": 30,
+      "DigitsPercent": 40
+    },
+    {
+      "Code": "LocPunSymDig",
+      "Name": "Local punctuation and special symbols",
+      "PunctuationPercent": 30,
+      "SpecialSymbolPercent": 30,
+      "DigitsPercent": 40,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "Dig",
+      "Name": "Digits only",
+      "DigitsPercent": 100
+    },
+    {
+      "Code": "DigPnt",
+      "Name": "Numbers with decimal point",
+      "DigitsPercent": 100,
+      "DecimalPointNumberPercent": 66,
+      "DecimalPointCharacter": ","
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCapPun",
+      "Name": "English letters with capitals and punctuation",
+      "CapitalizedWordPercent": 20,
+      "PunctuationPercent": 10
+    },
+    {
+      "Code": "LocLetCapPun",
+      "Name": "Local letters with capitals and punctuation",
+      "CapitalizedWordPercent": 20,
+      "PunctuationPercent": 10,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCapDig",
+      "Name": "English letters with capitals and digits",
+      "CapitalizedWordPercent": 33,
+      "DigitsPercent": 33
+    },
+    {
+      "Code": "LocLetCapDig",
+      "Name": "Local letters with capitals and digits",
+      "CapitalizedWordPercent": 40,
+      "DigitsPercent": 20,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCapPunDig",
+      "Name": "English letters with capitals, punctuation and digits",
+      "CapitalizedWordPercent": 25,
+      "PunctuationPercent": 25,
+      "DigitsPercent": 25
+    },
+    {
+      "Code": "LocLetCapPunDig",
+      "Name": "Local letters with capitals, punctuation and digits",
+      "CapitalizedWordPercent": 25,
+      "PunctuationPercent": 25,
+      "DigitsPercent": 25,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetCapPunSym",
+      "Name": "English letters with capitals, punctuation and special symbols",
+      "CapitalizedWordPercent": 20,
+      "PunctuationPercent": 10,
+      "SpecialSymbolPercent": 10
+    },
+    {
+      "Code": "LocLetCapPunSym",
+      "Name": "Local letters with capitals, punctuation and special symbols",
+      "CapitalizedWordPercent": 20,
+      "PunctuationPercent": 10,
+      "SpecialSymbolPercent": 10,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngLetPunSymDig",
+      "Name": "English letters, punctuation, special symbols and digits",
+      "PunctuationPercent": 10,
+      "SpecialSymbolPercent": 10,
+      "DigitsPercent": 15
+    },
+    {
+      "Code": "LocLetPunSymDig",
+      "Name": "Local letters, punctuation, special symbols and digits",
+      "PunctuationPercent": 10,
+      "SpecialSymbolPercent": 10,
+      "DigitsPercent": 15,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "EngRnd",
+      "Name": "Random english symbols",
+      "RandomSymbols": "*m}",
+      "RandomSymbolPercent": 100,
+      "MaxWordLength": 4
+    },
+    {
+      "Code": "LocRnd",
+      "Name": "Random local symbols",
+      "LocalRandomSymbols": "№ё",
+      "RandomSymbolPercent": 100,
+      "MaxWordLength": 4,
+      "LocalWordPercent": 100
+    },
+    {
+      "_": "---------------------------------------------------------------",
+      "Code": "Fnc",
+      "Name": "Control keys and functional keys",
+      "FunctionalKeysPercent": 100,
+      "ExerciseLength": 10,
+      "MaxWordLength": 10000
+    }
+  ]
+}

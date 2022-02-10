@@ -1,0 +1,13 @@
+﻿{
+  "ExerciseAppearance": {
+    "FontSize": 32,
+    "FontName": "Times New Roman",
+    "TextColor": "#2F4F4F",
+    "LocalTextColor": "#808000",
+    "HeadColor": "#FFD700",
+    "CurrentCharColor": "#ADFF2F",
+    "IncorrectCharColor": "#FF0000",
+    "TailColor": "#FFFFFF",
+    "BackgroundColor": "#FFFFFF"
+  }
+}

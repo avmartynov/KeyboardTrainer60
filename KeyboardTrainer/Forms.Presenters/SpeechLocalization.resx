@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="a" xml:space="preserve"><value>a</value></data>
+  <data name="b" xml:space="preserve"><value>bee</value></data>
+  <data name="c" xml:space="preserve"><value>cee</value></data>
+  <data name="d" xml:space="preserve"><value>dee</value></data>
+  <data name="e" xml:space="preserve"><value>e</value></data>
+  <data name="f" xml:space="preserve"><value>ef</value></data>
+  <data name="g" xml:space="preserve"><value>gee</value></data>
+  <data name="h" xml:space="preserve"><value>aitch</value></data>
+  <data name="i" xml:space="preserve"><value>i</value></data>
+  <data name="j" xml:space="preserve"><value>jay</value></data>
+  <data name="k" xml:space="preserve"><value>kay</value></data>
+  <data name="l" xml:space="preserve"><value>ell</value></data>
+  <data name="m" xml:space="preserve"><value>em</value></data>
+  <data name="n" xml:space="preserve"><value>en</value></data>
+  <data name="o" xml:space="preserve"><value>o</value></data>
+  <data name="p" xml:space="preserve"><value>pee</value></data>
+  <data name="q" xml:space="preserve"><value>cue</value></data>
+  <data name="r" xml:space="preserve"><value>r</value></data>
+  <data name="s" xml:space="preserve"><value>ess</value></data>
+  <data name="t" xml:space="preserve"><value>tee</value></data>
+  <data name="u" xml:space="preserve"><value>u</value></data>
+  <data name="v" xml:space="preserve"><value>vee</value></data>
+  <data name="w" xml:space="preserve"><value>double-u</value></data>
+  <data name="x" xml:space="preserve"><value>ex</value></data>
+  <data name="y" xml:space="preserve"><value>y</value></data>
+  <data name="z" xml:space="preserve"><value>zed</value></data>
+  <data name=" " xml:space="preserve"><value>space</value></data>
+  <data name="é" xml:space="preserve"><value>e aigu</value></data>
+  <data name="è" xml:space="preserve"><value>e grave</value></data>
+  <data name="ç" xml:space="preserve"><value>cédille</value></data>
+  <data name="à" xml:space="preserve"><value>a grave</value></data>
+  <data name="ù" xml:space="preserve"><value>u grave</value></data>
+  <data name="â" xml:space="preserve"><value>circonflexe a</value></data>
+  <data name="ê" xml:space="preserve"><value>circonflexe e</value></data>
+  <data name="û" xml:space="preserve"><value>circonflexe u</value></data>
+  <data name="î" xml:space="preserve"><value>circonflexe i</value></data>
+  <data name="ô" xml:space="preserve"><value>circonflexe o</value></data>
+  <data name="ä" xml:space="preserve"><value>umlaut a</value></data>
+  <data name="ë" xml:space="preserve"><value>umlaut e</value></data>
+  <data name="ÿ" xml:space="preserve"><value>umlaut y</value></data>
+  <data name="ü" xml:space="preserve"><value>umlaut u</value></data>
+  <data name="ï" xml:space="preserve"><value>umlaut i</value></data>
+  <data name="ö" xml:space="preserve"><value>umlaut o</value></data>
+  <data name="ñ" xml:space="preserve"><value>tilde n</value></data>
+  <data name="ò" xml:space="preserve"><value>0 grave</value></data>
+  <data name="ì" xml:space="preserve"><value>i grave</value></data>
+  <data name="á" xml:space="preserve"><value>aigu a</value></data>
+  <data name="ґ" xml:space="preserve"><value>ghe with upturn</value></data>
+  <data name="ў" xml:space="preserve"><value>short u</value></data>
+  <data name="." xml:space="preserve"><value>period</value></data>
+  <data name="," xml:space="preserve"><value>comma</value></data>
+  <data name=";" xml:space="preserve"><value>semicolon</value></data>
+  <data name=":" xml:space="preserve"><value>colon</value></data>
+  <data name="?" xml:space="preserve"><value>question mark</value></data>
+  <data name="!" xml:space="preserve"><value>exclamation poin</value></data>
+  <data name="`" xml:space="preserve"><value>grave accent</value></data>
+  <data name="'" xml:space="preserve"><value>single quote</value></data>
+  <data name="&quot;" xml:space="preserve"><value>double quotes</value></data>
+  <data name="-" xml:space="preserve"><value>hyphen</value></data>
+  <data name="(" xml:space="preserve"><value>opening parenthesis</value></data>
+  <data name=")" xml:space="preserve"><value>closing parenthesis</value></data>
+  <data name="~" xml:space="preserve"><value>tilde</value></data>
+  <data name="@" xml:space="preserve"><value>at symbol</value></data>
+  <data name="#" xml:space="preserve"><value>number</value></data>
+  <data name="$" xml:space="preserve"><value>dollar</value></data>
+  <data name="%" xml:space="preserve"><value>percent</value></data>
+  <data name="^" xml:space="preserve"><value>caret</value></data>
+  <data name="&amp;" xml:space="preserve"><value>ampersand</value></data>
+  <data name="*" xml:space="preserve"><value>asterisk</value></data>
+  <data name="_" xml:space="preserve"><value>underscore</value></data>
+  <data name="+" xml:space="preserve"><value>plus</value></data>
+  <data name="=" xml:space="preserve"><value>equals</value></data>
+  <data name="[" xml:space="preserve"><value>opening bracket</value></data>
+  <data name="]" xml:space="preserve"><value>closing bracket</value></data>
+  <data name="{" xml:space="preserve"><value>opening brace</value></data>
+  <data name="}" xml:space="preserve"><value>closing brace</value></data>
+  <data name="|" xml:space="preserve"><value>vertical bar</value></data>
+  <data name="\" xml:space="preserve"><value>backslash</value></data>
+  <data name="/" xml:space="preserve"><value>slash</value></data>
+  <data name="&lt;" xml:space="preserve"><value>less than</value></data>
+  <data name="&gt;" xml:space="preserve"><value>greater than</value></data>
+  <data name="²" xml:space="preserve"><value>superscript two</value></data>
+  <data name="°" xml:space="preserve"><value>degree</value></data>
+  <data name="¨" xml:space="preserve"><value>umlaut</value></data>
+  <data name="£" xml:space="preserve"><value>pound</value></data>
+  <data name="µ" xml:space="preserve"><value>micro</value></data>
+  <data name="§" xml:space="preserve"><value>section</value></data>
+  <data name="·" xml:space="preserve"><value>middle dot</value></data>
+  <data name="¿" xml:space="preserve"><value>inverted question mark</value></data>
+  <data name="¡" xml:space="preserve"><value>inverted exclamation mark</value></data>
+  <data name="º" xml:space="preserve"><value>superscript o</value></data>
+  <data name="ª" xml:space="preserve"><value>superscript a</value></data>
+  <data name="´" xml:space="preserve"><value>acute accent</value></data>
+  <data name="ß" xml:space="preserve"><value>sharp s</value></data>
+  <data name="«" xml:space="preserve"><value>left double angle quotes</value></data>
+  <data name="»" xml:space="preserve"><value>right double angle quotes</value></data>
+  <data name="№" xml:space="preserve"><value>numero sign</value></data>
+  <data name="₴" xml:space="preserve"><value>hryvnia sign</value></data>
+  <data name="F1" xml:space="preserve"><value>F 1</value></data>
+  <data name="F2" xml:space="preserve"><value>F 2</value></data>
+  <data name="F3" xml:space="preserve"><value>F 3</value></data>
+  <data name="F4" xml:space="preserve"><value>F 4</value></data>
+  <data name="F5" xml:space="preserve"><value>F 5</value></data>
+  <data name="F6" xml:space="preserve"><value>F 6</value></data>
+  <data name="F7" xml:space="preserve"><value>F 7</value></data>
+  <data name="F8" xml:space="preserve"><value>F 8</value></data>
+  <data name="F9" xml:space="preserve"><value>F 9</value></data>
+  <data name="F10" xml:space="preserve"><value>F 10</value></data>
+  <data name="F11" xml:space="preserve"><value>F 11</value></data>
+  <data name="F12" xml:space="preserve"><value>F 12</value></data>
+  <data name="Escape"   xml:space="preserve"><value>Escape</value></data>
+  <data name="Tab"      xml:space="preserve"><value>Tabulation</value></data>
+  <data name="CapsLock" xml:space="preserve"><value>Caps Lock</value></data>
+  <data name="Ctrl"     xml:space="preserve"><value>Control</value></data>
+  <data name="Back"     xml:space="preserve"><value>Backspace</value></data>
+  <data name="Enter"    xml:space="preserve"><value>Enter</value></data>
+  <data name="Menu"     xml:space="preserve"><value>Menu</value></data>
+  <data name="Insert"   xml:space="preserve"><value>Insert</value></data>
+  <data name="Delete"   xml:space="preserve"><value>Delete</value></data>
+  <data name="Home"     xml:space="preserve"><value>Home</value></data>
+  <data name="End"      xml:space="preserve"><value>End</value></data>
+  <data name="PageDown" xml:space="preserve"><value>Page Down</value></data>
+  <data name="PageUp"   xml:space="preserve"><value>Page Up</value></data>
+  <data name="Scroll"   xml:space="preserve"><value>Scroll Lock</value></data>
+  <data name="Pause"    xml:space="preserve"><value>Pause</value></data>
+  <data name="NumLock"  xml:space="preserve"><value>Number Lock</value></data>
+</root>
